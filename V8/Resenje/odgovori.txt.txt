@@ -1,0 +1,5 @@
+Instrukcije mogu biti generisane u drugacijem redosledu.
+Jedino sto mora biti je da instrukcija 2 bude napravljena pre 3, da 1 i 3
+budu napravljeni pre 4, da 5 i 4 budu napravljeni pre 6, sve ostalo npr.
+vreme pravljenja 4 i 5 je nezavisno.
+Tj. 4 se može napraviti pre 5 i obrnuto, ali oba moraju pre 6 i sl.

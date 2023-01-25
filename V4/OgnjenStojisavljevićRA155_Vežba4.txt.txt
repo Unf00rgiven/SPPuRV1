@@ -1,0 +1,150 @@
+Ognjen Stojisavljevic RA155/2019
+Visual Studio 2019
+Windows 10
+Procesor:Intel i5 8500 3GHz
+Jezgara:6
+
+
+-----------Primer 1------------
+1)
+Starting off in the sequential world.
+0000000000
+Back to the sequential world.
+
+2)
+Starting off in the sequential world.
+110000000000555222222222244444444443333333333111111155515555
+Back to the sequential world.	
+
+3)
+6 niti(0 1 2 3 4 5)
+
+4)
+	int maxx = omp_get_max_threads() / 2;
+	printf("Starting off in the sequential world.\n");
+	
+	omp_set_num_threads(maxx);
+	#pragma omp parallel
+	{
+		int ID = omp_get_thread_num();
+		foo(ID);
+	}
+
+-----------Primer 2--------------
+1)
+Run time: 4580.08ms
+
+2)
+Run time: 1312.5ms
+
+3)
+Ubrzanje: 3.49
+
+4)
+Nije. Zbog Ambdalovog zakona.
+
+-----------Primer 3--------------
+1)
+U paralelnom kodu ne postoji naredba no wait,izlazi razliciti.
+
+2)
+Potrebno je u drugoj petlji obrisati nowait naredbu jer treca petlja koristi njene razultate.
+
+3)
+Ubrzanje pre ispravke:5.73
+Ubrzanje posle ispravke:3.12
+
+4)
+Smanjenjem broja blokova koji dinamicki rasporedjuju izvrsavanje po nitima.
+
+-----------Primer 4-------------
+1)
+Ispis sekvencijalnog i paralelnog koda je isti.
+
+2)
+Ispis nije isti zato sto jednoj deljenoj promjenljivoj pristupa vise niti radi upisa.
+
+3)
+	double startTime = omp_get_wtime();
+
+	omp_set_num_threads(8);
+
+	// Compute the sum of integers  1..n
+	#pragma omp parallel for 
+	for (int i = 1; i <= n; ++i)
+	{
+		long long temp = compute(i);
+#pragma omp critical
+		total += temp;
+	}
+
+	double endTime = omp_get_wtime();
+
+4)
+Ubrzanje sa reduktorom:2.91
+Ubrzanje sa kriticnom sekcijom:0.012
+
+----------------Primer 5-------------------
+1)
+Problem je sto vise od jedne niti ima pristup kriticnoj sekciji u isto vreme pa dolazi do stetnog preplitanja unutar sekcije.
+
+2)
+void print1()
+{
+	for (int i = 0; i < 100; i++)
+#pragma omp critical
+	{
+		// This is critical section
+		cout << "Crvena";
+		cout << " Zvezda";
+		cout << " je";
+		cout << " prvak";
+		cout << " sveta! ";
+		cout << endl;
+		
+	}
+}
+
+void print2()
+{
+	int i;
+	for (i = 0; i < 100; i++)
+#pragma omp critical
+	{
+		// This is critical section
+		cout << "Priprema";
+		cout << " vezbe";
+		cout << " iz ";
+		cout << " SPPuRV ";
+		cout << endl;
+		
+	}
+}
+
+void print3()
+{
+	int i;
+	for (i = 0; i < 100; i++)
+#pragma omp critical
+	{
+		// This is critical section
+		cout << "Danas";
+		cout << " je";
+		cout << " lep";
+		cout << " i";
+		cout << " suncan";
+		cout << " dan ";
+		cout << endl;
+		
+	}
+}
+
+------------Primer 6------------------
+1)
+Ispis je isti.
+
+2)
+Ubrzanje je 1.6875
+
+3)
+Ubrzanje je 1.2690

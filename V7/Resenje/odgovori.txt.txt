@@ -1,0 +1,16 @@
+Ognjen Stojisavljevic RA 155/2019
+
+1)
+44.6 REAL
+.98 REAL
+. ERROR
+
+2)
+Neterminalni simboli: begin, then, print, end, id, =, num.
+Terminalni ulazi: Q, S, L, E. 
+
+3) 
+U kodu
+
+4)
+U kodu

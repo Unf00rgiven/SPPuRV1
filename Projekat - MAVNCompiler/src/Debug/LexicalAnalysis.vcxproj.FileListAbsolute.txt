@@ -1,0 +1,3 @@
+C:\Users\Ognjen\Desktop\Fax\II godina\II semestar\SPPuRV\Vezbe\RA 155 2019\Projekat5\src\Debug\LexicalAnalysis.exe
+C:\Users\Trifković\Downloads\src\Debug\LexicalAnalysis.exe
+C:\Users\Trifković\Downloads\src\Debug\LexicalAnalysis.pdb

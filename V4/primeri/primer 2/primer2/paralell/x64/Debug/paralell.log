@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Ognjen\Desktop\Fax\II godina\II semestar\SPPuRV\Vezbe\Vezbe 4\primeri\primer 2\primer2\paralell\main.cpp(27,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ognjen\Desktop\Fax\II godina\II semestar\SPPuRV\Vezbe\Vezbe 4\primeri\primer 2\primer2\paralell\main.cpp(38,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  paralell.vcxproj -> C:\Users\Ognjen\Desktop\Fax\II godina\II semestar\SPPuRV\Vezbe\Vezbe 4\primeri\primer 2\primer2\x64\Debug\parallel.exe

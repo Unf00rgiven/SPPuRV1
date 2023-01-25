@@ -1,0 +1,18 @@
+Ognjen Stojisavljevic RA 155/2019
+
+1)
+U prvi prolaz asemblera ulazi program napisan u asemblerskom jeziku.
+Prvi prolaz asemblera definise vrednosti simbola koji se pojavljuju u programu.
+dodeljuje memorijsku lokaciju svakom memorijskom bloku, instrukciji i konstanti.
+U tu svrhu se uvodi brojac lokacija, masinska instrukcija, pseudo instrukcija za 
+duzinu podataka i bloka i pseudo instrukcija koja generise izlaz.
+Ovaj kod izlaz je iz prvog prolaza i ulaz u drugi prolaz.
+
+2)  
+U drugom prolazu se vrsi asembliranje masinskih instrukcija, odredjivanje svakog polja instrukcije.
+Izlaz iz drugog prolaza je masinski kod i izvestaj koji sadrzi: redni broj linije i ukazivac na greske, 
+adresu memorijske lokacije, generisan masinski kod i podatke i izvorni asemblerski kod.
+
+3)
+Konverzija konstanti se izvrsava pomocu potprograma za konverziju konstanti. 
+Konvertuju se u binarne vrednosti, asembliraju i smjestaju u odgovarajuce bajtove.

@@ -1,0 +1,15 @@
+Ognjen Stojisavljevic RA 155/2019 
+
+1.izlazi iz programa jer nisu ubaceni argumenti u properties, nema greske
+
+2.linija 15, posle 2.for ciklusa stoji ";" sto znaci da for ne radi nista i da ce se pixels++ izvrsiti jedanput
+
+3.ovaj kod ispravno radi jer je 3 najmanji element niza
+
+4.kod ispravno radi jer je kod asserta zadovoljen uslov i zato printf ispisuje
+
+5. u case 3 stoji print(1) umesto print(3) zato ispisuje 1214
+
+6.if (foo = 5) treba da pise == a ne =, program ne raddi ono sto mi zelimo nego u taj if smatra kao true umesto da se pita da li je foo==5?
+
+7.program ne radi jer predprocesorka direktiva square(n) treba da primi broj a ne izraz, zato dobijamo nezeljeni rezultat i program prekida jer uslov asserta nije ispunjen

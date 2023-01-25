@@ -1,0 +1,57 @@
+Ognjen Stojisavljevic RA155/2019
+Visual Studio 2019
+Windows 10
+Jezgara:6
+Intel i5 8500
+
+-----------------------------------SEKVENCIJALNO-------------------------------------
+
+Filterring started.
+SIZE = 1000000
+
+        Read in file finished. Took: 2478.02ms.
+
+
+        Filter finished. Took: 263.758ms.
+
+
+        Clipping finished. Took: 222.064ms.
+
+There are 999998 elements.
+982422 of them are even, and 17576 are odd.
+Looks all right.
+
+        Counting finished. Took: 19.4373ms.
+
+
+        Writing out file finished. Took: 9788.32ms.
+
+
+Filterring finished. Took: 12774.8ms.
+
+
+
+--------------------------------------PARALELNO-----------------------------------------------
+
+Filterring started.
+SIZE = 1000000
+
+        Read in file finished. Took: 2415.39ms.
+
+
+        Filter finished. Took: 34.3988ms.
+
+
+        Clipping finished. Took: 7.5526ms.
+
+There are 999998 elements.
+982692 of them are even, and 17306 are odd.
+Looks all right.
+
+        Counting finished. Took: 4.2115ms.
+
+
+        Writing out file finished. Took: 9509.13ms.
+
+
+Filterring finished. Took: 11972.7ms.

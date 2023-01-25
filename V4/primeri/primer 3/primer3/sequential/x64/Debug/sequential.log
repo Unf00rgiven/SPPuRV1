@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\Ognjen\Desktop\Fax\II godina\II semestar\SPPuRV\Vezbe\Vezbe 4\primeri\primer 3\primer3\sequential\main.cpp(23,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Ognjen\Desktop\Fax\II godina\II semestar\SPPuRV\Vezbe\Vezbe 4\primeri\primer 3\primer3\sequential\main.cpp(39,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Ognjen\Desktop\Fax\II godina\II semestar\SPPuRV\Vezbe\Vezbe 4\primeri\primer 3\primer3\sequential\main.cpp(40,11): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Ognjen\Desktop\Fax\II godina\II semestar\SPPuRV\Vezbe\Vezbe 4\primeri\primer 3\primer3\sequential\main.cpp(46,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ognjen\Desktop\Fax\II godina\II semestar\SPPuRV\Vezbe\Vezbe 4\primeri\primer 3\primer3\sequential\main.cpp(48,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  sequential.vcxproj -> C:\Users\Ognjen\Desktop\Fax\II godina\II semestar\SPPuRV\Vezbe\Vezbe 4\primeri\primer 3\primer3\x64\Debug\sequential.exe

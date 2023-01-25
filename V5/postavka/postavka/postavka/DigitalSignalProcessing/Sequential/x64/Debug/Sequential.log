@@ -1,0 +1,16 @@
+﻿  Clip.cpp
+C:\Users\Ognjen\Desktop\Fax\II godina\II semestar\SPPuRV\Vezbe\Vezbe 5\postavka\postavka\postavka\DigitalSignalProcessing\Sequential\Clip.cpp(13,45): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Ognjen\Desktop\Fax\II godina\II semestar\SPPuRV\Vezbe\Vezbe 5\postavka\postavka\postavka\DigitalSignalProcessing\Sequential\Clip.cpp(13,45): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+  Counter.cpp
+C:\Users\Ognjen\Desktop\Fax\II godina\II semestar\SPPuRV\Vezbe\Vezbe 5\postavka\postavka\postavka\DigitalSignalProcessing\Sequential\Counter.cpp(9,46): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Ognjen\Desktop\Fax\II godina\II semestar\SPPuRV\Vezbe\Vezbe 5\postavka\postavka\postavka\DigitalSignalProcessing\Sequential\Counter.cpp(9,46): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+  Filter.cpp
+C:\Users\Ognjen\Desktop\Fax\II godina\II semestar\SPPuRV\Vezbe\Vezbe 5\postavka\postavka\postavka\DigitalSignalProcessing\Sequential\Filter.cpp(13,45): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Ognjen\Desktop\Fax\II godina\II semestar\SPPuRV\Vezbe\Vezbe 5\postavka\postavka\postavka\DigitalSignalProcessing\Sequential\Filter.cpp(13,45): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+  main.cpp
+  ReadInFile.cpp
+C:\Users\Ognjen\Desktop\Fax\II godina\II semestar\SPPuRV\Vezbe\Vezbe 5\postavka\postavka\postavka\DigitalSignalProcessing\Sequential\ReadInFile.cpp(23,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  WriteOutFile.cpp
+  Generating Code...
+Clip.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Sequential.vcxproj -> C:\Users\Ognjen\Desktop\Fax\II godina\II semestar\SPPuRV\Vezbe\Vezbe 5\postavka\postavka\postavka\DigitalSignalProcessing\x64\Debug\Sequential.exe
